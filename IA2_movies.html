@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>James Kyoung Ho Kim - Movies</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      background: #f5f1e8;
+      color: #4a3428;
+      line-height: 1.8;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    header {
+      background: #4a3428;
+      color: #f3e0aa;
+      padding: 20px 36px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 14px;
+    }
+
+    .site-title {
+      font-size: 24px;
+      letter-spacing: 0.5px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 28px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #f3e0aa;
+      font-size: 16px;
+    }
+
+    nav a:hover,
+    nav a.active {
+      color: #80a6cb;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 56px 28px 80px;
+    }
+
+    .movie-block {
+      margin-bottom: 70px;
+    }
+
+    .movie-image {
+      width: 100%;
+      height: 420px;
+      object-fit: cover;
+      display: block;
+      border: 3px solid #80a6cb;
+      background: #ddd;
+    }
+
+    .movie-title {
+      margin-top: 26px;
+      margin-bottom: 16px;
+      font-size: 42px;
+      font-weight: 400;
+      color: #573f33;
+    }
+
+    .movie-text {
+      font-size: 19px;
+      margin-bottom: 14px;
+    }
+
+    .next-link {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .next-link a {
+      display: inline-block;
+      color: #573f33;
+      font-weight: bold;
+      border: 2px solid #573f33;
+      padding: 10px 18px;
+    }
+
+    .next-link a:hover {
+      color: #80a6cb;
+      border-color: #80a6cb;
+    }
+
+    footer {
+      text-align: center;
+      padding: 28px 20px 40px;
+      color: #6d584c;
+      font-size: 14px;
+    }
+
+    @media (max-width: 900px) {
+      header {
+        padding: 18px 20px;
+      }
+
+      .container {
+        padding: 36px 18px 56px;
+      }
+
+      .movie-image {
+        height: 260px;
+      }
+
+      .movie-title {
+        font-size: 32px;
+      }
+
+      .movie-text {
+        font-size: 17px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="site-title">Eojin Lim</div>
+
+    <nav>
+      <ul>
+        <li><a href="IA2_home.html">Home</a></li>
+        <li><a href="IA2_movies.html" class="active">Movies</a></li>
+        <li><a href="IA2_songs.html">Songs</a></li>
+        <li><a href="IA2_books.html">Books</a></li>
+        <li><a href="IA2_city.html">City</a></li>
+        <li><a href="IA2_app.html">App</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="movie-block">
+      <img
+        class="movie-image"
+        src="https://i.pinimg.com/1200x/9e/be/6b/9ebe6b1716655c44a9818a485b147ce8.jpg"
+        alt="Meet Joe Black"
+      />
+
+      <h1 class="movie-title">Meet Joe Black</h1>
+
+      <p class="movie-text">
+        Meet Joe Black is a romantic fantasy film about a young woman who falls in love with Death in human form. As Death takes on the identity of Joe Black, he begins to experience human emotions for the first time. Their relationship grows deeper despite the inevitability of his true nature. The film explores love, mortality, and what it means to truly live.
+      </p>
+
+      <p class="movie-text">
+        I recommend this movie for its unique and thought-provoking story about life and death. It offers deep emotional moments that make you reflect on the meaning of love and time. The performances and atmosphere create a beautiful and unforgettable experience.
+      </p>
+    </section>
+
+    <section class="movie-block">
+      <img
+        class="movie-image"
+        src="https://i.pinimg.com/1200x/07/9d/a0/079da07eda0b5a250ab6e3384bcc1772.jpg"
+        alt="Forrest Gump"
+      />
+
+      <h2 class="movie-title">Forrest Gump</h2>
+
+      <p class="movie-text">
+        Forrest Gump is a heartwarming film that follows the life of a simple and kind-hearted man named Forrest. Despite his low IQ, he experiences extraordinary events and unknowingly becomes part of important moments in history. Throughout his journey, he remains sincere and devoted to the people he loves, especially Jenny. The film beautifully portrays how honesty and perseverance can shape a meaningful life.
+      </p>
+
+      <p class="movie-text">
+        I recommend this movie for its inspiring message about life and resilience. It shows that success does not always come from intelligence, but from sincerity and determination. The story is both touching and uplifting, leaving a lasting impression on viewers.
+      </p>
+    </section>
+
+    <div class="next-link">
+      <a href="IA2_songs.html">Next: Songs</a>
+    </div>
+  </main>
+
+
+  </footer>
+</body>
+</html>
